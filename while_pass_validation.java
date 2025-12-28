@@ -11,6 +11,7 @@ public class while_pass_validation {
 		while(password.length()<8)
 		{
 			System.out.println("Password is too short");
+			System.out.println("Enter Your Password:");
 			password=pass.next();
 		}
 	}
